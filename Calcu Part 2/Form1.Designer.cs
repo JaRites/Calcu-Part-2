@@ -68,6 +68,7 @@ namespace Calcu_Part_2
             this.BtnFraction.TabIndex = 0;
             this.BtnFraction.Text = "1/X";
             this.BtnFraction.UseVisualStyleBackColor = true;
+            this.BtnFraction.Click += new System.EventHandler(this.Operation_Click);
             // 
             // BtnSquare
             // 
@@ -78,6 +79,7 @@ namespace Calcu_Part_2
             this.BtnSquare.TabIndex = 1;
             this.BtnSquare.Text = "x²";
             this.BtnSquare.UseVisualStyleBackColor = true;
+            this.BtnSquare.Click += new System.EventHandler(this.Operation_Click);
             // 
             // BtnClear
             // 
@@ -108,6 +110,7 @@ namespace Calcu_Part_2
             this.BtnPosNeg.TabIndex = 9;
             this.BtnPosNeg.Text = "+/-";
             this.BtnPosNeg.UseVisualStyleBackColor = true;
+            this.BtnPosNeg.Click += new System.EventHandler(this.BtnPosNeg_Click);
             // 
             // BtnPercent
             // 
@@ -118,6 +121,7 @@ namespace Calcu_Part_2
             this.BtnPercent.TabIndex = 8;
             this.BtnPercent.Text = "%";
             this.BtnPercent.UseVisualStyleBackColor = true;
+            this.BtnPercent.Click += new System.EventHandler(this.Operation_Click);
             // 
             // Btn9
             // 
@@ -128,6 +132,7 @@ namespace Calcu_Part_2
             this.Btn9.TabIndex = 7;
             this.Btn9.Text = "9";
             this.Btn9.UseVisualStyleBackColor = true;
+            this.Btn9.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn8
             // 
@@ -138,6 +143,7 @@ namespace Calcu_Part_2
             this.Btn8.TabIndex = 6;
             this.Btn8.Text = "8";
             this.Btn8.UseVisualStyleBackColor = true;
+            this.Btn8.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn7
             // 
@@ -148,6 +154,7 @@ namespace Calcu_Part_2
             this.Btn7.TabIndex = 5;
             this.Btn7.Text = "7";
             this.Btn7.UseVisualStyleBackColor = true;
+            this.Btn7.Click += new System.EventHandler(this.Variables_Click);
             // 
             // BtnDivide
             // 
@@ -158,6 +165,7 @@ namespace Calcu_Part_2
             this.BtnDivide.TabIndex = 14;
             this.BtnDivide.Text = "/";
             this.BtnDivide.UseVisualStyleBackColor = true;
+            this.BtnDivide.Click += new System.EventHandler(this.Operation_Click);
             // 
             // BtnMultiply
             // 
@@ -168,6 +176,7 @@ namespace Calcu_Part_2
             this.BtnMultiply.TabIndex = 13;
             this.BtnMultiply.Text = "X";
             this.BtnMultiply.UseVisualStyleBackColor = true;
+            this.BtnMultiply.Click += new System.EventHandler(this.Operation_Click);
             // 
             // Btn6
             // 
@@ -178,6 +187,7 @@ namespace Calcu_Part_2
             this.Btn6.TabIndex = 12;
             this.Btn6.Text = "6";
             this.Btn6.UseVisualStyleBackColor = true;
+            this.Btn6.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn5
             // 
@@ -188,6 +198,7 @@ namespace Calcu_Part_2
             this.Btn5.TabIndex = 11;
             this.Btn5.Text = "5";
             this.Btn5.UseVisualStyleBackColor = true;
+            this.Btn5.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn4
             // 
@@ -198,6 +209,7 @@ namespace Calcu_Part_2
             this.Btn4.TabIndex = 10;
             this.Btn4.Text = "4";
             this.Btn4.UseVisualStyleBackColor = true;
+            this.Btn4.Click += new System.EventHandler(this.Variables_Click);
             // 
             // BtnMinus
             // 
@@ -208,6 +220,7 @@ namespace Calcu_Part_2
             this.BtnMinus.TabIndex = 19;
             this.BtnMinus.Text = "-";
             this.BtnMinus.UseVisualStyleBackColor = true;
+            this.BtnMinus.Click += new System.EventHandler(this.Operation_Click);
             // 
             // BtnPlus
             // 
@@ -218,6 +231,7 @@ namespace Calcu_Part_2
             this.BtnPlus.TabIndex = 18;
             this.BtnPlus.Text = "+";
             this.BtnPlus.UseVisualStyleBackColor = true;
+            this.BtnPlus.Click += new System.EventHandler(this.Operation_Click);
             // 
             // Btn3
             // 
@@ -228,6 +242,7 @@ namespace Calcu_Part_2
             this.Btn3.TabIndex = 17;
             this.Btn3.Text = "3";
             this.Btn3.UseVisualStyleBackColor = true;
+            this.Btn3.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn2
             // 
@@ -238,6 +253,7 @@ namespace Calcu_Part_2
             this.Btn2.TabIndex = 16;
             this.Btn2.Text = "2";
             this.Btn2.UseVisualStyleBackColor = true;
+            this.Btn2.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn1
             // 
@@ -248,6 +264,7 @@ namespace Calcu_Part_2
             this.Btn1.TabIndex = 15;
             this.Btn1.Text = "1";
             this.Btn1.UseVisualStyleBackColor = true;
+            this.Btn1.Click += new System.EventHandler(this.Variables_Click);
             // 
             // BtnEquals
             // 
@@ -258,6 +275,7 @@ namespace Calcu_Part_2
             this.BtnEquals.TabIndex = 24;
             this.BtnEquals.Text = "=";
             this.BtnEquals.UseVisualStyleBackColor = true;
+            this.BtnEquals.Click += new System.EventHandler(this.BtnEquals_Click);
             // 
             // BtnPeriod
             // 
@@ -268,6 +286,7 @@ namespace Calcu_Part_2
             this.BtnPeriod.TabIndex = 22;
             this.BtnPeriod.Text = ".";
             this.BtnPeriod.UseVisualStyleBackColor = true;
+            this.BtnPeriod.Click += new System.EventHandler(this.Variables_Click);
             // 
             // Btn0
             // 
@@ -278,6 +297,7 @@ namespace Calcu_Part_2
             this.Btn0.TabIndex = 20;
             this.Btn0.Text = "0";
             this.Btn0.UseVisualStyleBackColor = true;
+            this.Btn0.Click += new System.EventHandler(this.Variables_Click);
             // 
             // BtnMS
             // 
@@ -336,6 +356,7 @@ namespace Calcu_Part_2
             this.FinalTxtBx.Name = "FinalTxtBx";
             this.FinalTxtBx.Size = new System.Drawing.Size(414, 116);
             this.FinalTxtBx.TabIndex = 30;
+            this.FinalTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 

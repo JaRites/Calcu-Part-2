@@ -12,9 +12,76 @@ namespace Calcu_Part_2
 {
     public partial class Form1 : Form
     {
+        OOP oop = new OOP();
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Variables_Click(object sender, EventArgs e)
+        {
+            if ((FinalTxtBx.Text == "0") || (oop.Operation_Used1))
+                FinalTxtBx.Clear();
+
+            oop.Operation_Used1 = false;
+            Button b = (Button)sender;
+            FinalTxtBx.Text = FinalTxtBx.Text + b.Text;
+        }
+
+        private void Operation_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            oop.Operation = b.Text;
+            oop.Value = float.Parse(FinalTxtBx.Text);
+            oop.Operation_Used1 = true;
+        }
+
+        private void BtnEquals_Click(object sender, EventArgs e)
+        {
+            if (oop.Operation.Equals("+"))
+            {
+                FinalTxtBx.Text = (oop.Value + float.Parse(FinalTxtBx.Text)).ToString();
+            }
+
+            if (oop.Operation.Equals("-"))
+            {
+                FinalTxtBx.Text = (oop.Value - float.Parse(FinalTxtBx.Text)).ToString();
+            }
+
+            if (oop.Operation.Equals("*"))
+            {
+                FinalTxtBx.Text = (oop.Value * float.Parse(FinalTxtBx.Text)).ToString();
+            }
+            if (oop.Operation.Equals("/"))
+            {
+                FinalTxtBx.Text = (oop.Value / float.Parse(FinalTxtBx.Text)).ToString();
+            }
+
+            if (oop.Operation.Equals("%"))
+            {
+                FinalTxtBx.Text = (oop.Value * (float.Parse(FinalTxtBx.Text) / 100)).ToString();
+            }
+
+            if (oop.Operation.Equals("x²"))
+            {
+                FinalTxtBx.Text = (oop.Value * oop.Value).ToString();
+            }
+
+            if (oop.Operation.Equals("1/X"))
+            {
+                FinalTxtBx.Text = ((oop.Value = 1) / float.Parse(FinalTxtBx.Text)).ToString();
+            }
+        }
+
+        private void BtnPosNeg_Click(object sender, EventArgs e)
+        {///////
+            FinalTxtBx.Text = "-";
+
+            if (FinalTxtBx.Equals("-"))
+            {
+                FinalTxtBx.Text = "";
+            }
+            oop.Operation_Used1 = false;
         }
     }
 }

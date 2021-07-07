@@ -1,0 +1,9 @@
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\bin\Debug\Calcu Part 2.exe.config
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\bin\Debug\Calcu Part 2.exe
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\bin\Debug\Calcu Part 2.pdb
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu_Part_2.Form1.resources
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu_Part_2.Properties.Resources.resources
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.csproj.GenerateResource.cache
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.csproj.CoreCompileInputs.cache
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.exe
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.pdb
