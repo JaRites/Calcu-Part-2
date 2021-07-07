@@ -74,7 +74,7 @@ namespace Calcu_Part_2
         }
 
         private void BtnPosNeg_Click(object sender, EventArgs e)
-        {///////
+        {
             FinalTxtBx.Text = "-";
 
             if (FinalTxtBx.Equals("-"))
@@ -82,6 +82,12 @@ namespace Calcu_Part_2
                 FinalTxtBx.Text = "";
             }
             oop.Operation_Used1 = false;
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            FinalTxtBx.Clear();
+            oop.Value = 0;
         }
     }
 }

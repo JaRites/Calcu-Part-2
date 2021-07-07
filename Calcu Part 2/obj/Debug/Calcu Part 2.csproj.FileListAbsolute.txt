@@ -7,3 +7,4 @@ C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.csp
 C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.csproj.CoreCompileInputs.cache
 C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.exe
 C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.pdb
+C:\Users\rites\source\repos\Calcu Part 2\Calcu Part 2\obj\Debug\Calcu Part 2.csproj.AssemblyReference.cache

@@ -90,6 +90,7 @@ namespace Calcu_Part_2
             this.BtnClear.TabIndex = 2;
             this.BtnClear.Text = "C";
             this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
             // BtnDelete
             // 
