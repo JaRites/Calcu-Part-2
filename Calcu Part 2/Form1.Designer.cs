@@ -101,6 +101,7 @@ namespace Calcu_Part_2
             this.BtnDelete.TabIndex = 4;
             this.BtnDelete.Text = "Del";
             this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // BtnPosNeg
             // 

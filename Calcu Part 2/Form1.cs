@@ -48,7 +48,7 @@ namespace Calcu_Part_2
                 FinalTxtBx.Text = (oop.Value - float.Parse(FinalTxtBx.Text)).ToString();
             }
 
-            if (oop.Operation.Equals("*"))
+            if (oop.Operation.Equals("X"))
             {
                 FinalTxtBx.Text = (oop.Value * float.Parse(FinalTxtBx.Text)).ToString();
             }
@@ -88,6 +88,14 @@ namespace Calcu_Part_2
         {
             FinalTxtBx.Clear();
             oop.Value = 0;
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (FinalTxtBx.Text.Length > 0)
+            {
+                FinalTxtBx.Text = FinalTxtBx.Text.Remove(FinalTxtBx.Text.Length - 1, 1);
+            }
         }
     }
 }
