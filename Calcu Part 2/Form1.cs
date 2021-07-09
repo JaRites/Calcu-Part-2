@@ -40,6 +40,7 @@ namespace Calcu_Part_2
             oop.Operation = b.Text;
             oop.Value = float.Parse(FinalTxtBx.Text);
             oop.Operation_Used1 = true;
+            EquationLbl.Text = oop.Value + "" + oop.Operation;
         }
 
         private void BtnEquals_Click(object sender, EventArgs e)
@@ -77,6 +78,8 @@ namespace Calcu_Part_2
             {
                 FinalTxtBx.Text = ((oop.Value = 1) / float.Parse(FinalTxtBx.Text)).ToString();
             }
+
+            EquationLbl.Text = "";
         }
 
         private void BtnPosNeg_Click(object sender, EventArgs e)

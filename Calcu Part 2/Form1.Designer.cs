@@ -53,6 +53,7 @@ namespace Calcu_Part_2
             this.BtnPeriod = new System.Windows.Forms.Button();
             this.Btn0 = new System.Windows.Forms.Button();
             this.FinalTxtBx = new System.Windows.Forms.TextBox();
+            this.EquationLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnFraction
@@ -323,11 +324,23 @@ namespace Calcu_Part_2
             // 
             this.FinalTxtBx.BackColor = System.Drawing.Color.LavenderBlush;
             this.FinalTxtBx.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FinalTxtBx.Location = new System.Drawing.Point(47, 46);
+            this.FinalTxtBx.Location = new System.Drawing.Point(47, 52);
             this.FinalTxtBx.Name = "FinalTxtBx";
             this.FinalTxtBx.Size = new System.Drawing.Size(414, 116);
             this.FinalTxtBx.TabIndex = 30;
             this.FinalTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // EquationLbl
+            // 
+            this.EquationLbl.AutoSize = true;
+            this.EquationLbl.BackColor = System.Drawing.Color.LavenderBlush;
+            this.EquationLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EquationLbl.ForeColor = System.Drawing.Color.Silver;
+            this.EquationLbl.Location = new System.Drawing.Point(52, 61);
+            this.EquationLbl.Name = "EquationLbl";
+            this.EquationLbl.Size = new System.Drawing.Size(23, 36);
+            this.EquationLbl.TabIndex = 31;
+            this.EquationLbl.Text = " ";
             // 
             // Form1
             // 
@@ -335,6 +348,7 @@ namespace Calcu_Part_2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(511, 643);
+            this.Controls.Add(this.EquationLbl);
             this.Controls.Add(this.FinalTxtBx);
             this.Controls.Add(this.BtnEquals);
             this.Controls.Add(this.BtnPeriod);
@@ -392,6 +406,7 @@ namespace Calcu_Part_2
         private System.Windows.Forms.Button BtnPeriod;
         private System.Windows.Forms.Button Btn0;
         private System.Windows.Forms.TextBox FinalTxtBx;
+        private System.Windows.Forms.Label EquationLbl;
     }
 }
 
