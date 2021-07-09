@@ -11,7 +11,6 @@ namespace Calcu_Part_2
         private String operation = "";
         private Boolean Operation_Used = false;
         public float Value = 0;
-
         public string Operation { get => operation; set => operation = value; }
         public bool Operation_Used1 { get => Operation_Used; set => Operation_Used = value; }
     }
