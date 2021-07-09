@@ -25,7 +25,13 @@ namespace Calcu_Part_2
 
             oop.Operation_Used1 = false;
             Button b = (Button)sender;
-            FinalTxtBx.Text = FinalTxtBx.Text + b.Text;
+            if (b.Text == ".")
+            {
+                if (!FinalTxtBx.Text.Contains("."))
+                    FinalTxtBx.Text = FinalTxtBx.Text + b.Text;
+            }
+            else
+                FinalTxtBx.Text = FinalTxtBx.Text + b.Text;
         }
 
         private void Operation_Click(object sender, EventArgs e)
